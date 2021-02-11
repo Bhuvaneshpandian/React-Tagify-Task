@@ -1,0 +1,32 @@
+
+
+.tagiyContainer{
+    position: relative;
+     margin-top: 5%;
+   
+}
+
+
+input{
+
+    padding: 5px 5px 5px 5px;
+    
+    margin-left: 43% ;
+  
+}
+
+
+
+
+
+.ul{
+
+    background-color: red;
+}
+
+.tag-list{
+   
+position: absolute;
+
+
+}
