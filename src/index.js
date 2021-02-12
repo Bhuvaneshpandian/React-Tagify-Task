@@ -2,13 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Tagify from './tagify/Tagify';
+ import Tagifyinput from './component/Tagifyinput'; 
+import Taglists from './component/Taglists';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
      <App />
-    <Tagify />
+  <Tagifyinput/>
+   <Taglists/>  
+  
   </React.StrictMode>,
   document.getElementById('root')
 );

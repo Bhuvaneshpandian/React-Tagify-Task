@@ -24,9 +24,12 @@ input{
     background-color: red;
 }
 
-.tag-list{
+
    
-position: absolute;
+    ul {
+        list-style-type: square;
+        list-style-position: outside;
+        list-style-image: none;
+      }
 
 
-}
