@@ -1,28 +1,32 @@
+import { render } from "@testing-library/react";
 
+function Taglist(props){
+ 
+   
+   function handleClick(e) {
+      e.preventDefault();
+    var x = document.getElementsByClassName('textContent')
+    
+    console.log(x)
+    }
+   
+return (
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+    
 
-
-
-
- class Taglists extends React.Component {  
-
-
-
-   render() {  
-
-
-
-
-
-      return (  
-         <div>
-
-
-
+       <div className="container">
+            <ul className="ulList">
+       <li   className="listItem">
+       <img src={props.userInfo.avatar}className="imageList" ></img>
+ <div className="userList" onClick={props.onSelectUser.bind(null,props.userInfo)}>
+         <span  className='tagUserList'>{props.userInfo.name}</span>
          </div>
-      );  
-   }  
-}  
-export default Taglists;  
+     
+     </li>
+     </ul>
+     </div>
+       
+) 
+   
+}
+export default Taglist;
